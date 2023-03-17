@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  background-color: rgb(231, 231, 231);
+}
+
+header {
+  margin-top: 50px;
+}
+
+.fa-github {
+  font-size: 100px;
+}
+
+h1 {
+  font-family: 'Rampart One', 'cursive';
+  font-size: 42px;
+}
+
+.input-main {
+  margin-top: 15px;
+  width: 39%;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.search-button {
+  padding: 9px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 10px
+}
+
+.search-button:hover {
+  background-color: #fff;
+  border: 2px solid #8e8d8d;
+}
+
+.wrap {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.main-wrap {
+  text-align: center;
+}
+
+.main-form,
+.search-result {
+  text-align: center;
+}
+
+.search-result-container {
+  margin-top: 15px;
+}
+
+.error-container {
+  margin-top: 35px;
+}
+
+.search-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.count-container {
+  margin-top: 35px;
+}
+
+.searched-item {
+  border: 1px solid rgb(105, 105, 105);
+  border-radius: 15px;
+  list-style-type: none;
+  padding: 10px;
+}
+
+.searched-link {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.searched-link:hover {
+  color: grey;
+}
+
+.searched-description {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+.repo-small-text {
+  font-weight: 600;
+}
+
+.searched-amount {
+  font-family: 'Nanum Myeongjo';
+  font-weight: 700;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Rampart+One&family=Red+Hat+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/300bc3030f.js" crossorigin="anonymous"></script>
+  <title>search_repo</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="wrap">
+      <div class="main-wrap">
+        <i class="fa-brands fa-github"></i>
+        <h1>Search GitHub REPO</h1>
+      </div>
+      <form class="main-form">
+        <input class="input-main" name="name" id="search-input" type="text">
+        <button class="search-button" type="submit">SEARCH</button>
+      </form>
+      
+        <div class="error-container"></div>
+        <div class="count-container"></div>
+        <div class="search-result-container">
+          <ul class="search-list">
+          </ul>
+        </div>
+      
+    </div>
+  </header>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
